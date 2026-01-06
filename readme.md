@@ -1,8 +1,7 @@
-<div align="center" width="100%">
-    <img src="./readmeAssets/img/komodo-512x512.png" width="128" alt="Komodo Logo" />
-</div>
-
-# Komodo
+<h1>
+  <img src="./readmeAssets/img/komodo-512x512.png" width="50" alt="Komodo" style="vertical-align: middle;">
+  Komodo
+</h1>
 
 Komodo is a Docker management UI which supports managing Docker containers and compose stacks across dozens of servers.  
 In addition to Docker management, Komodo provides tools for building and deploying software, including Git integration, build pipelines and secret management.  
