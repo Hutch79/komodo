@@ -2,10 +2,11 @@
     <img src="./readmeAssets/img/komodo-512x512.png" width="128" alt="Komodo Logo" />
 </div>
 
-# Komodo 🦎
+# Komodo
 
 Komodo is a Docker management UI which supports managing Docker containers and compose stacks across dozens of servers.  
 In addition to Docker management, Komodo provides tools for building and deploying software, including Git integration, build pipelines and secret management.  
+
 There is no limit to the number of servers you can connect, and there will never be. There is no limit to what API you can use for automation, and there never will be. No "business edition" here.
 
 🦎 [See the docs](https://komo.do)  
@@ -39,6 +40,13 @@ There is no limit to the number of servers you can connect, and there will never
 - Build args
 - Webhook support for automated builds
 
+### Server Management
+- Resource monitoring
+  - CPU, Memory, Disk, Network
+- Per container resource usage
+- Container, Network, Volume and Image listing and detail views
+- Terminal (if activated in Periphery agent)
+
 ### Procedures
 Create multistep procedures to automate complex workflows.
 - Combine build, deployment and actions
@@ -63,14 +71,21 @@ Script your own custom actions to do what you want.
     - Ntfy
     - Pushover
 - OIDC Authentication
-- Granular, per-resource access control
 - User Groups
+- Granular, per-resource access control
+- Per resource action log
+  - See exactly who did what and when
 - Dark/Ligh themes
 
-## Screenshots
+## How to get started
+Komodo needs a MongoDB database to store its data.  
+If you're not able to run MongoDB, it is possible to use PostgreSQL with FerretDB *translating* between the two.
 
-<details>
-<summary>Click to toggle Screenshots</summary>
+- [Setup Komodo with MongoDB](https://komo.do/docs/setup/mongo)
+- [Setup Komodo with PostgreSQL and FerretDB](https://komo.do/docs/setup/ferretdb)
+- [Add more servers to Komodo](https://komo.do/docs/setup/connect-servers)
+
+## Screenshots
 
 | Dark Theme | Light Theme |
 |---|---|
@@ -82,15 +97,6 @@ Script your own custom actions to do what you want.
 | ![Update](./readmeAssets/screenshots/Dark-Update.png) | ![Update](./readmeAssets/screenshots/Light-Update.png) |
 | ![Stats](./readmeAssets/screenshots/Dark-Stats.png) | ![Stats](./readmeAssets/screenshots/Light-Stats.png) |
 | ![Export](./readmeAssets/screenshots/Dark-Export.png) | ![Export](./readmeAssets/screenshots/Light-Export.png) |
-</details>
-
-## How to get started
-Komodo needs a MongoDB database to store its data.  
-If you're not able to run MongoDB, it is possible to use PostgreSQL with FerretDB *translating* between the two.
-
-[Setup Komodo with MongoDB](https://komo.do/docs/setup/mongo)  
-[Setup Komodo with PostgreSQL and FerretDB](https://komo.do/docs/setup/ferretdb)  
-[Add more servers to Komodo](https://komo.do/docs/setup/connect-servers)  
 
 ## Fun fact
 
