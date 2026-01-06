@@ -5,6 +5,12 @@ In addition to Docker management, Komodo provides tools for building and deployi
 
 There is no limit to the number of servers you can connect, and there will never be. There is no limit to what API you can use for automation, and there never will be. No "business edition" here.
 
+<div align="center">
+  <img src="./readmeAssets/screenshots/Dark-Ligh-Stack.png" alt="Stack" style="max-width: 80%;">
+</div>
+
+___
+
 🦎 [See the docs](https://komo.do)  
 🦎 [Try the Demo](https://demo.komo.do) - Login: `demo` : `demo`  
 🦎 [See the Build Server](https://build.komo.do)  - Login: `komodo` : `komodo`  
